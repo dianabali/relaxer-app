@@ -13,6 +13,7 @@ body {
     align-items: center;
     color: white;
     font-family: 'Poiret One', cursive;
+    letter-spacing: 2px;
     margin: 0;
 }
 
@@ -39,7 +40,7 @@ body {
 }
 
 .gradient-circle {
-    background: conic-gradient(#dbbe81 0%, #4ca493 40%, #4ca493 40%, #4ca493 60%, #4ca493 60%, #dbbe81 100%);
+    background: conic-gradient(#c0b08f 10%, #4a8b7e 40%, #4a8b7e 40%, #4a8b7e 60%, #4a8b7e 60%, #c0b08f 90%);
     height: 320px;
     width: 320px;
     border-radius: 50%;
@@ -50,7 +51,8 @@ body {
 }
 
 .pointer {
-    background-color: white;
+    background-color: #f3bbbb;
+    box-shadow: #261717 0px 0px 10px;
     border-radius: 50%;
     height: 20px;
     width: 20px;
@@ -63,7 +65,7 @@ body {
     left: 140px;
     width: 20px;
     height: 190px;
-    animation: rotate 7.5s linear forwards infinite;
+    animation: rotate 6.5s linear forwards infinite;
     transform-origin: bottom center;
 }
 
